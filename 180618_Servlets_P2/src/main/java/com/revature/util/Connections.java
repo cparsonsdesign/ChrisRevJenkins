@@ -52,7 +52,7 @@ public class Connections {
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			System.out.println("ORACLE DRIVER CLASS NOT FOUND.");
+			System.out.println("ORACLE DRIVERCLASS NOT FOUND.");
 		} 
 		return conn;
 	}
